@@ -21,18 +21,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C8F3DB963C91270042CDB1E811722C47"
-        "OwnerKey" = "8:_5DDD3927CB51490A89DB953471672D45"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C8F3DB963C91270042CDB1E811722C47"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_5DDD3927CB51490A89DB953471672D45"
         "MsmSig" = "8:_UNDEFINED"
@@ -77,6 +65,34 @@
     {
         "CustomAction"
         {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_1CCB7A96B1D44BEEA314609D9CE839DA"
+            {
+            "Name" = "8:Primary output from Kacenka (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_5DDD3927CB51490A89DB953471672D45"
+            "FileType" = "3:2"
+            "InstallAction" = "3:1"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_FF932DF6_5B7F_4CFF_BB31_4DC46E31DDDA"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_A5C0EF04291C406FAE3411B9A929BD2D"
+            {
+            "Name" = "8:Primary output from Kacenka (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_5DDD3927CB51490A89DB953471672D45"
+            "FileType" = "3:2"
+            "InstallAction" = "3:4"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_1368F10D_283D_464E_B45C_CDD2C939EEA6"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
         }
         "DefaultFeature"
         {
@@ -100,37 +116,6 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C8F3DB963C91270042CDB1E811722C47"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-                "ScatterAssemblies"
-                {
-                    "_C8F3DB963C91270042CDB1E811722C47"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:System.Net.Http.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_7407C6B8FDA14B12BC2B22CE2EC617F4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
         }
         "FileType"
         {
@@ -186,9 +171,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Setup"
+        "ProductName" = "8:Pomocnicek"
         "ProductCode" = "8:{FE0025FD-7375-43EA-B6ED-7DB1A2515594}"
-        "PackageCode" = "8:{C0579539-043A-4446-BB91-951C469ADD68}"
+        "PackageCode" = "8:{EAE5E8D3-9C97-4D60-812D-DE5C89F3806F}"
         "UpgradeCode" = "8:{FAAE4074-B7E9-444C-9AA6-5D78C49802FB}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -196,12 +181,12 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Default Company Name"
+        "Manufacturer" = "8:Talapoin"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Setup"
+        "Title" = "8:Pomocnicek"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:Talapoin"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -308,6 +293,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7512615801AE4B198CC26A7BCEADA26E"
+            {
+            "Name" = "8:Pomocníček"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_5DDD3927CB51490A89DB953471672D45"
+            "Folder" = "8:_D36F142504504ABCACEC03C801883FCA"
+            "WorkingFolder" = "8:_7407C6B8FDA14B12BC2B22CE2EC617F4"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
