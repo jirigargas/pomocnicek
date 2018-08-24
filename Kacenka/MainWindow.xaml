@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kacenka"
         mc:Ignorable="d"
-        Title="Extraktor fotek" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize">
+        Title="Pomocníček" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
     <Canvas Margin="10" Height="350" Width="525">
         <Label Content="Ahoj, jsem tu, abych ti pomohl. K práci ale potřebuji:" VerticalContentAlignment="Center" Canvas.Top="10" Height="30"/>
         <Label Content="Cestu k souboru" VerticalContentAlignment="Center" Canvas.Top="45" Height="30"/>
