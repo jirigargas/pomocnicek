@@ -1,0 +1,29 @@
+﻿<Window x:Class="Kacenka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kacenka"
+        mc:Ignorable="d"
+        Title="Extraktor fotek" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize">
+    <Canvas Margin="10" Height="350" Width="525">
+        <Label Content="Ahoj, jsem tu, abych ti pomohl. K práci ale potřebuji:" VerticalContentAlignment="Center" Canvas.Top="10" Height="30"/>
+        <Label Content="Cestu k souboru" VerticalContentAlignment="Center" Canvas.Top="45" Height="30"/>
+        <TextBox VerticalContentAlignment="Center" Width="241" Height="30" Canvas.Left="113" Canvas.Top="45" IsReadOnly="True" Name="TbCsvSoubor"/>
+        <Button Content="Vyber CSV soubor" Width="140" Height="30" Canvas.Top="45" Click="VyberCsvSoubor" Canvas.Left="359"/>
+
+        <Label Content="Kde ti mám uložit vyfiltrované fotky?" VerticalContentAlignment="Center" Canvas.Top="110" Height="30"/>
+
+        <Label Content="Fotky uložím tady" VerticalContentAlignment="Center" Canvas.Top="145" Height="30"/>
+        <TextBox VerticalContentAlignment="Center" Width="241" Height="30" Canvas.Left="113" Canvas.Top="145" IsReadOnly="True" Name="TbCilovyAdresar"/>
+        <Button Content="Vyber cílový adresář" Width="140" Height="30" Canvas.Right="10" Canvas.Top="145" Click="VyberCilovyAdresar" Canvas.Left="359"/>
+
+
+        <Label Content="Ted už mám vše. Až budeš připravena, můžu začít ..." VerticalContentAlignment="Center" Canvas.Top="203" Name="LblPripraveno" Height="30"/>
+        <Button Content="Začni!" Canvas.Left="287" Canvas.Top="203" Width="212" Height="30" Click="Start" Name="BtnStart" />
+
+        <ProgressBar IsIndeterminate="True" Width="489" Height="20" Canvas.Left="10" Canvas.Top="252" Name="Progres"/>
+    </Canvas>
+
+
+</Window>
